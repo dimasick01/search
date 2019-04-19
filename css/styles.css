@@ -52,6 +52,7 @@ margin-right: 0;
 }
 .search-container{
 	overflow: hidden;
+	padding: 0 30px 50px;
 }
 ul.list li a{
 	background: #ebebed;
@@ -60,7 +61,16 @@ ul.list li a{
 	border-radius: 5px; 
 	padding:10px;
 	text-decoration: none;
+	transition: all .3s;
+}
+ul.list li a:hover{
+	background: #ddd;
+	
+	transform: scale(1.2);
 
+}
+ul.list li a:hover p{
+	color: red;
 }
 ul.list li{
     list-style: none;
